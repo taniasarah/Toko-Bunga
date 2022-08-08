@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    background: url(../gambar/sunflower.png) no-repeat center fixed;
+    background-size: cover;
+}
+.satu{
+    position: relative;/* posisinya lurus kesamping diatas digunakan agar tulisan dapat berseblehan dengan logo */
+    background-color: darksalmon;
+    border: 35px solid darksalmon;/* garis tepi agar gambar dan tulisan pas ditempat yang dihendaki */ 
+}
+.satu h1{
+    font-family: 'Charm', cursive;
+    font-size: 50px;
+    text-align: left;/* agar tulisan kekiri */
+    text-indent: 140px; /* agar ada jarak antara gambar dan tulisan */
+    text-shadow: 2px 2px 5px crimson;
+}
+.bunga{
+    position: absolute;/* agar dapat menyesuaikan dan berdampingan dengan tulisan arau relative */
+    top: -25px;/* jarak logo dari atas semakin tinggi bilangannya maka gambar akan semakan keatas */
+    left: -25px;/* jarak logo dari kiri semakin tinggi maka gambar akan semakan kekanan */
+}
+.nav{
+    position: sticky;/* agar menu selalu mengikuti kebawah apabila di scroll */
+    top: 0px;/* agar tidak ada jarak antara navbar dengan taskbar */
+}
+.nav ul{
+    padding: 0px;/* agar tidak ada jarak dari pinngir garis ke objek, kalo diisi ul nya membesar */
+    margin: 0px;/* agar tidak ada jarak pada tulisan */
+    background-color: black;
+    border: 5px solid black;/* warna garis pinggir */
+    overflow: hidden;/* agar tampilan menu pilihan dapat menyesuaikan dengan width dan height agar tidak terpotong, keluar dari background ul */
+}
+.nav li{
+    float: left;/* agar elemen mengapung kekiri atau dimulai dari kiri */
+    border-right: 2px solid white;/* border kekiri */
+    display: inline;/* supaya merata mengarah kesamping tidak kebawah*/
+    color: white;
+    padding: 10px;/* jarak dengan objek */
+
+}
+.heading{
+    background-color: rgba(100, 100, 100, 0.5);
+    text-align: center;/* agar tulisan ketengah */
+    padding: 1%;/* agar ada jarak dari pinggir */
+}
+.paraghrap{
+    background-color: rgba(100, 100, 100, 0.5);
+    padding: 15px;/* jarak dari border kekonten */
+}
+.fungsi{
+    background-color: rgba(100, 100, 100, 0.5);
+    padding: 15px;
+}
+.morfologi{
+   background-color: rgba(100, 100, 100, 0.5);
+   padding: 15px;
+}
+.list li{
+    margin-left: 35px;/* jarak kanan dengan tepi ujung */
+}
+.hey h2{
+    text-align: center;
+    font-family: 'Coming Soon', cursive;
+}
+a{
+    text-decoration: none;/* menghilangkan garis dibawahnya */
+    color: darkgoldenrod;;
+}
+.pilih img{
+    padding-top: 1%;/* agar ada jarak dari atas */
+    margin-left: 2%;/* agar ada jarak dari kiri */
+}
+.tengah img{
+  padding-top: 3%;/* jarak dari atas */
+  margin-left: 8.5%;/* jarak dari kiri */
+}
+.akhir img{
+    padding-top: 3%;/* jarak dari atas */
+    margin-left: 17%;/* jarak dari kiri */
+}
+div.flower{
+  margin: 4%;/* jarak antar element */
+  margin-left: 38%;
+  width: 25%;/* besar box */
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+div.food{
+  margin: 4%;
+  margin-left: 38%;
+  width: 25%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px; 
+}
+div.deskripsi{
+  text-align: center;
+  padding: 10px;
+}
+.info h2{
+    text-align: center;
+    padding: 15px;
+}
+.list table{
+    border: 3px solid black;/* agar ada garis tepi pada tabel */
+    text-align: center;/* tulisan pada tabel berada ditengah */
+    width: 75%;/* lebar ukuran tabel */
+    margin-left: 13%;/* agar tabel berjarak dari kiri */
+}
+th, td{
+    border: 1px solid black;/* agar ada garis antar tabel */
+    background-color: white;
+    text-align: center;
+    padding: 8px;/* jarak antar dengan konten */
+}
+
+tr:nth-child(even){background-color: white}
+
+th{
+    background-color: violet;
+}
+.form{
+    text-align: center;/* agar form berada ditengah */
+    padding: 20px;/* agar ada jaraknya dari pinggir */
+    margin: 25px;
+}
+.form fieldset{/* class untuk website 6 */
+    width: 40%;/* lebar form */
+    margin-left: 30%;
+    background-color: white;
+}
+.form textarea{
+    margin-left: 0%;
+}
+.daftar form{/* class untuk website daftar */
+    margin-top: 10%;
+}
+.daftar fieldset{
+    text-align: center;
+    margin-left: 30%;
+    width: 40%;
+    background-color: white;
+}
+.makasih{
+    text-align: center;
+    padding: 20%;
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    color: goldenrod;
+}
