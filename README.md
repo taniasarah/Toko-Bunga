@@ -1,5 +1,4 @@
-# Project Mata Kuliah Pengantar Teknologi Web
-
+# Web Technology Introduction Course Project
 ### This project is an assignment from the Introduction to Web Technology course on campus. This project is my first website about a flower shop, created using HTML, CSS and Bootstrap. 
 
 <br>
